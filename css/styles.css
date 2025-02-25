@@ -1,0 +1,311 @@
+*{
+    margin-top: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    margin: 0 auto; 
+    flex-wrap: wrap;
+}
+
+body{
+    margin-top: 0;
+    background-color: rgb(241, 241, 241);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.625rem;
+    width: 100%;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    margin-right: -0.5rem;
+    margin-left: -0.406rem;
+}
+.ul-nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: -2.7rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.ul-nav .li-nav {
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+.a-nav {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    border-radius: 1.625rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.a-nav:hover{
+    background-color: rgb(156, 153, 153);
+}
+
+#search-academy-btn{
+    background-color: blueviolet;
+    padding: 0.375rem;
+}
+#search-academy-btn:hover{
+    padding: 0.375rem;
+    filter: brightness(110%);
+}
+
+.proz-titlegym-title {
+    margin-left: 3rem;
+    padding-top: 1rem;
+    margin-bottom: auto;
+    font-size: 3rem;
+}
+#gym-title{
+    color:#ffb612
+}
+#proz-title{
+    color:blueviolet
+}
+main{
+    clear: both;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.plans-title {
+    display: flex;
+    font-size: 1.3rem;
+}
+.plans-title-colored{
+    color: blueviolet;
+    margin-left: 0.365rem;
+}
+
+.plans-desc {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.5rem;
+}
+
+.black-plan-box{
+    background-color: #3b3b40;
+    margin-top: 2.5rem;
+    width: 21.25rem;
+    height: 37.375rem;
+    border-radius: 0.938rem;
+    margin-left: -6rem;
+    transition: transform 0.3s ease-in-out;
+}
+.black-plan-box:hover{
+    transform: scale(1.01);
+}
+.plan-offer-div{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-left: -5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plan-offer{
+    background-color: blueviolet;
+    width: 5rem;
+    display: flex;
+    border-radius: 0.6rem;
+    
+}
+.plan-offer-colored{
+    background-color: blueviolet;
+    margin-left: -1.19rem;
+    font-weight: bold;
+    border-radius: 0.6rem;
+}
+.black-plan-text-title{
+    color: white;
+    display: flex;
+}
+.black-plan-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.25rem;
+    margin-top: 1.125rem;
+    font-size: 1.25rem;
+}
+.black-plan-text-desc{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-wrap: initial;
+    font-size: 0.938rem;
+    text-align: center;
+
+}
+.black-plan-price{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.black-contratar-btn{
+    background-color: blueviolet;
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1.875rem;
+    border: none;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.black-contratar-btn:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+ }
+.purple-verified{
+    width: 1.5rem;
+}
+.purple-blocked{
+    width: 1.5rem;
+}
+.black-plan-benefits{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.black-plan-benefits li {
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+.black-plan-benefits p {
+    display: flex;
+
+}
+.plans-div{
+    display: flex;
+    gap: 7rem;
+}
+/* PLANO FIT */
+.fit-plan-box{
+    background-color: #ffffff;
+    margin-top: 2.5rem;
+    width: 21.25rem;
+    height: 37.375rem;
+    border-radius: 0.938rem;
+    margin-left: -6rem;
+    transition: transform 0.3s ease-in-out;
+}
+.fit-plan-box:hover{
+    transform: scale(1.01);
+}
+.plan-offer-div{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-left: -5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plan-offer{
+    background-color: blueviolet;
+    width: 5rem;
+    display: flex;
+    border-radius: 0.6rem;
+    
+}
+.plan-offer-colored{
+    background-color: blueviolet;
+    margin-left: -1.19rem;
+    font-weight: bold;
+    border-radius: 0.6rem;
+}
+.fit-plan-text-title{
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.fit-plan-title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.25rem;
+    margin-top: 2.7rem;
+    font-size: 1.25rem;
+}
+.fit-plan-text-desc{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-wrap: initial;
+    font-size: 0.938rem;
+    text-align: center;
+
+}
+.fit-plan-price{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fit-contratar-btn{
+    background-color: blueviolet;
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1.875rem;
+    border: none;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.fit-contratar-btn:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+ }
+
+.fit-plan-benefits{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fit-plan-benefits li {
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+.fit-plan-benefits p {
+    display: flex;
+
+}
+.plans-div{
+    display: flex;
+    gap: 7rem;
+}
+.blacklisted {
+    color: rgb(146, 144, 144);
+    text-decoration: line-through;
+}
+.taxas-plan{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
