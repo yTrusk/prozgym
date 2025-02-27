@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet');
+
 *{
     margin-top: 0;
 }
@@ -35,15 +37,28 @@ form{
 .title{
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
 }
+
 input{
     border: none;
 }
 
-#user, #pass{
+#user{
+    padding-top: 2.5rem;
+    margin-bottom: -1rem;
+}
+#user label{
+    margin-left: 6rem;
+} 
+
+#pass{
+    margin-left: 6rem;
+}
+#mail{
+    margin-left: 6rem;
+}
+#cpf{
     margin-left: 6rem;
 }
 
@@ -132,4 +147,60 @@ hr{
     width: 3.75rem;
     height: auto;
     cursor: pointer;
+}
+
+#choose-sign-login {
+    display: flex;
+    gap: 0.1rem;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10rem;
+    box-shadow: 0px 0px 15px rgba(255, 1, 255, 0.5);
+}
+.div-signup-btn{
+    display: flex;
+    justify-content: center;
+}
+.signup-btn{
+    width: 10rem;
+    height: 3.125rem;
+    border-radius: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    font-family: "Cormorant", serif;
+    border: none;
+    background-color: white;
+    transition: transform 0.2 ease-in-out;
+    cursor: pointer;
+}
+.signup-btn:hover{
+  filter: brightness(80%);
+  transform: scale(1.01);
+}
+
+.div-loginpg-btn{
+    display: flex;
+    justify-content: center;
+}
+.loginpg-btn{
+    width: 10rem;
+    height: 3.125rem;
+    border-radius: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    font-family: "Cormorant", serif;
+    border: none;
+    background-image: linear-gradient(to right, blueviolet, rgb(190, 3, 181));
+    transition: transform 0.2 ease-in-out;
+    cursor: pointer;
+}
+.loginpg-btn:hover{
+  filter: brightness(120%);
+  transform: scale(1.01);
+}
+#logindiv{
+    display: block;
+}
+#signupdiv{
+    display: none;
 }
