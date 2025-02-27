@@ -35,7 +35,7 @@ form{
 .title{
     display: flex;
     justify-content: center;
-    padding-top: 3.7rem;
+    padding-top: 5rem;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -129,7 +129,7 @@ hr{
     align-items: center;
 }
 .part-login-i img{
-    width: 60px;
+    width: 3.75rem;
     height: auto;
     cursor: pointer;
 }
