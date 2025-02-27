@@ -1,0 +1,135 @@
+*{
+    margin-top: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    margin: 0 auto; 
+    flex-wrap: wrap;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(45deg, blueviolet, rgb(253, 4, 253));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.signup{
+    width: 33rem;
+    height: 43rem;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.7rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    border: none;
+}
+
+#user, #pass{
+    margin-left: 6rem;
+}
+
+hr{
+    width: 20rem;
+}
+.username, .password{
+    display: flex;
+    justify-content: center;
+    gap: 0.23rem;
+    margin-top: 0.125rem;
+    margin-bottom: 0.25rem;
+}
+.username input{
+    width: 18.75rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.username img{
+    width: 1.563rem;
+}
+.password img{
+    width: 1.3rem;
+    height: 1.4rem; 
+    margin-top: 0.606rem;
+}
+.password input{
+    width: 18.75rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.username input:focus {
+    outline: none;
+}
+.password input:focus {
+    outline: none;
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.625rem;
+}
+.forgot a {
+    color: rgb(160, 160, 160) ;
+    text-decoration: none;
+}
+
+.div-login-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.login-btn{
+    width: 22.5rem;
+    height: 3.125rem;
+    border-radius: 2.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-image: linear-gradient(to right, blueviolet, rgb(253, 4, 253));
+    transition: transform 0.2 ease-in-out;
+    cursor: pointer;
+}
+.login-btn:hover{
+  filter: brightness(120%);
+  transform: scale(1.01);
+}
+
+.part-login-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: rgb(124, 125, 126);
+}
+
+.part-login-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-login-i img{
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}

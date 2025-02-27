@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
+    <div id="loaderid" class="bg-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header>
         <div class="proz-titlegym-title-div">
           <h1 class="proz-titlegym-title"><a id="proz-title" href="/routes/index.html">Proz</a> <a id="gym-title" href="/routes/index.html">Gym</a></h1>
@@ -16,20 +23,21 @@
           <ul class="ul-nav">
             <a class="a-nav" href="#plans"><li class="li-nav">Academias</li></a>
             <a class="a-nav" href=""><li class="li-nav">Espaço do Cliente</li></a>
-            <a class="a-nav" href=""><li class="li-nav">Seja um franqueado</li></a>
-            <a class="a-nav" id="search-academy-btn" href=""><li class="li-nav">Buscar Academia</li></a>
+            <a class="a-nav" href=""><li class="li-nav">Buscar Academia</li></a>
+            <a class="a-nav" id="search-academy-btn" href="#a" onclick="searchgym()"><li class="li-nav">Cadastro/Login</li></a>
           </ul>
         </div>
       </nav>
     </header>
+    
     <main>
-        <section>
-            <div>
+        <section >
+            <div >
                 <a href="plans"></a>
                 <div class="plans-title"><h2>Venha treinar na</h2><h2 class="plans-title-colored">maior rede de academias da América Latina</h2></div>
                 <div class="plans-desc"><p>Os melhores equipamentos e infraestrutura com mensalidades acessíveis.</p></div>
             </div>
-            <div class="plans-div"> <!-- Plano black -->
+            <div class="plans-div" > <!-- Plano black -->
                 <div class="black-plan-box">
                     <div class="plan-offer-div">
                         <legend class="plan-offer">O mais</legend> <legend class="plan-offer-colored">vantajoso</legend>
@@ -116,5 +124,6 @@
         </section>
 
       </main>
+      <script src="../js/script.js"></script>
   </body>
 </html>
