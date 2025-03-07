@@ -85,10 +85,13 @@ main{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .plans-title {
     display: flex;
     font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
 }
 .plans-title-colored{
     color: blueviolet;
@@ -99,6 +102,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: -0.5rem;
+    align-items: center;
 }
 
 .black-plan-box{
@@ -107,7 +111,6 @@ main{
     width: 21.25rem;
     height: 37.375rem;
     border-radius: 0.938rem;
-    margin-left: -6rem;
     transition: transform 0.2s ease-in-out;
 }
 .black-plan-box:hover{
@@ -117,7 +120,6 @@ main{
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
-    margin-left: -5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .plan-offer{
@@ -129,7 +131,6 @@ main{
 }
 .plan-offer-colored{
     background-color: blueviolet;
-    margin-left: -1.19rem;
     font-weight: bold;
     border-radius: 0.6rem;
 }
@@ -198,10 +199,7 @@ ol {
     display: flex;
 
 }
-.plans-div{
-    display: flex;
-    gap: 7rem;
-}
+
 /* PLANO FIT */
 .fit-plan-box{
     background-color: white;  /* linear-gradient(180deg, blueviolet 20%, white) */
@@ -292,13 +290,12 @@ ol {
     display: flex;
     align-items: center;
 }
-.fit-plan-benefits p {
-    display: flex;
 
-}
 .plans-div{
     display: flex;
     gap: 7rem;
+    justify-content: center;
+    align-items: center;
 }
 .blacklisted {
     color: rgb(146, 144, 144);
@@ -383,4 +380,17 @@ ol {
 }
 .menu-list:hover{
     filter: brightness(120%);
+}
+
+#gymbros{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.gymbrosdiv{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
