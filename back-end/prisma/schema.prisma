@@ -15,4 +15,5 @@ model User {
   cpf String @unique
   birth_date DateTime?
   plan String?
+  createdAt String
 }

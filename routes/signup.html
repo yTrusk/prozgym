@@ -8,6 +8,13 @@
 
 </head>
 <body>
+    <div id="loaderid" class="bg-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <form action="">
         <div class="signup">
             <div class="title">
@@ -26,14 +33,14 @@
                 </div>
                 <br>
                 <div class="username">
-                    <img src="../assets/person.svg" alt="person"> <input type="text" placeholder="Type your username">
+                    <img src="../assets/person.svg" alt="person"> <input type="text" id="userinputlg" autocomplete="off" placeholder="Type your username">
                 </div>
                 <hr>
                 <br>
                 <label for="password" id="pass">Password</label>
                 <br>
                 <div class="password">
-                    <img src="../assets/lock2.png" alt="lock"><input type="password" placeholder="Type your password">
+                    <img src="../assets/lock2.png" alt="lock"><input type="password" id="passinputlg" autocomplete="off" placeholder="Type your password">
                 </div>
                 <hr>
                 <br>
@@ -41,7 +48,7 @@
                     <a href="">Forgot password?</a>
                 </div>
                 <div class="div-login-btn">
-                    <button class="login-btn" type="button">LOGIN</button>
+                    <button class="login-btn" type="button" onclick="signinfunction()">LOGIN</button>
                 </div>
                 <div class="part-login-p">
                     <p>Or Sign Up Using</p>
@@ -58,32 +65,32 @@
                 </div>
                 <br>
                 <div class="username">
-                    <img src="../assets/person.svg" alt="person"> <input type="text" placeholder="Type your username">
+                    <img src="../assets/person.svg" alt="person"> <input type="text" id="userinput" autocomplete="off" placeholder="Type your username">
                 </div>
                 <hr>
                 <br>
                 <label for="password" id="pass">Password</label>
                 <br>
                 <div class="password">
-                    <img src="../assets/lock2.png" alt="lock"><input type="password" placeholder="Type your password">
+                    <img src="../assets/lock2.png" alt="lock"><input type="password" id="passinput" autocomplete="off" placeholder="Type your password">
                 </div>
                 <hr>
                 <br>
                 <label for="email" id="mail">Email</label>
                 <br>
                 <div class="password">
-                    <img src="../assets/email.png" alt="lock"><input type="email" placeholder="Type your email">
+                    <img src="../assets/email.png" alt="lock"><input type="email" id="emailinput" autocomplete="off" placeholder="Type your email">
                 </div>
                 <hr>
                 <br>
                 <label for="email" id="cpf">Cpf</label>
                 <br>
                 <div class="password">
-                    <img src="../assets/cpf.png" alt="lock"><input type="text" placeholder="Format 000.000.000-00">
+                    <img src="../assets/cpf.png" alt="lock"><input type="text" autocomplete="off" id="cpfinput" placeholder="Format 000.000.000-00">
                 </div>
                 <hr>
                 <div class="div-login-btn">
-                    <button class="login-btn" type="button">Sign Up</button>
+                    <button class="login-btn" type="button" onclick="signupfunction()">Sign Up</button>
                 </div>
             </div>
         </div>
