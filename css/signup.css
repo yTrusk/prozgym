@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Teko:wght@300..700&display=swap');
 *{
     margin-top: 0;
 }
@@ -216,7 +216,27 @@ hr{
     z-index: 9998;
     display: none;
 }
-
+.proz-titlegym-title {
+    margin-left: 3rem;
+    margin-bottom: auto;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    filter: brightness(120%);
+    font-family: normal;
+}
+#gym-title{
+    color:#ffb612
+}
+#proz-title{
+    color:blueviolet
+}
 .loader {
     width: 7.8rem;
     height: 7rem;
